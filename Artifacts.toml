@@ -1,0 +1,10 @@
+[[CUDA_Driver]]
+arch = "x86_64"
+git-tree-sha1 = "b311d9a5d60d8d48255297690ddb7cbf53c65f96"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[CUDA_Driver.download]]
+    sha256 = "a77b7ae9df8933feb1455ce737e17cc5fbff5b514635cc7e9eafeddb37f28b7b"
+    url = "https://github.com/maleadt/CUDA_Driver_jll.jl/releases/download/CUDA_Driver-v0.3.0+1/CUDA_Driver.v0.3.0.x86_64-linux-gnu.tar.gz"
