@@ -34,7 +34,7 @@ function __init__()
 
     JLLWrappers.@generate_init_footer()
     
-    global compat_version = v"12.1.0"
+    global compat_version = v"12.2.0"
     # global variables we will set
     global libcuda = nothing
     global libcuda_version = nothing
